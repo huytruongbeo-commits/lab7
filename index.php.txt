@@ -1,0 +1,9 @@
+<?php
+echo "<h1>Chao mung huy dz da deploy thanh cong Lab 7!</h1>";
+$conn = new mysqli('localhost', 'team_app', 'MatKhauRieng_EC2_2026', 'team_project');
+if ($conn->connect_error) {
+    echo "<p style='color: red;'>Ket noi CSDL that bai: " . $conn->connect_error . "</p>";
+} else {
+    echo "<p style='color: green;'>Ket noi CSDL MySQL thanh cong!</p>";
+}
+?>
