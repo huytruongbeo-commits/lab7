@@ -1,0 +1,7 @@
+<?php
+return [
+    'db_host' => 'localhost',
+    'db_user' => 'team_app',
+    'db_pass' => 'MatKhauRieng_EC2_2026',
+    'db_name' => 'team_project'
+];
